@@ -1,0 +1,13 @@
+{
+  "title": "Small-Rule Guardrails for Retrieval-Augmented Generation: Prompt Injection and Vector Poisoning Checks",
+  "author": "Mukunda Rao Katta",
+  "orcid": "https://orcid.org/0009-0007-6071-3896",
+  "resource_type": "research artifact",
+  "primary_platform": "Figshare",
+  "license": "CC BY 4.0",
+  "related_repositories": [
+    "ai-problem-packages/packages/prompt-injection-shield",
+    "ai-problem-packages/packages/vector-poison-score"
+  ]
+}
+

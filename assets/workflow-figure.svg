@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="180" viewBox="0 0 920 180" role="img" aria-label="RAG guardrail workflow">
+  <rect width="920" height="180" fill="#f7fafc"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#17324d">
+    <rect x="30" y="55" width="145" height="70" rx="8" fill="#e8f0fb" stroke="#8aa4c1"/>
+    <text x="102" y="86" text-anchor="middle">Retrieved</text><text x="102" y="106" text-anchor="middle">content</text>
+    <rect x="215" y="55" width="145" height="70" rx="8" fill="#fff4e5" stroke="#c99a54"/>
+    <text x="287" y="86" text-anchor="middle">Prompt injection</text><text x="287" y="106" text-anchor="middle">scan</text>
+    <rect x="400" y="55" width="145" height="70" rx="8" fill="#fff4e5" stroke="#c99a54"/>
+    <text x="472" y="86" text-anchor="middle">Poison score</text><text x="472" y="106" text-anchor="middle">check</text>
+    <rect x="585" y="55" width="145" height="70" rx="8" fill="#eef8ed" stroke="#7ba776"/>
+    <text x="657" y="86" text-anchor="middle">Filter or strip</text><text x="657" y="106" text-anchor="middle">risky text</text>
+    <rect x="770" y="55" width="120" height="70" rx="8" fill="#e8f0fb" stroke="#8aa4c1"/>
+    <text x="830" y="86" text-anchor="middle">Safer model</text><text x="830" y="106" text-anchor="middle">context</text>
+  </g>
+  <g stroke="#57718c" stroke-width="2" fill="none">
+    <path d="M175 90h38"/><path d="M360 90h38"/><path d="M545 90h38"/><path d="M730 90h38"/>
+  </g>
+</svg>
+
