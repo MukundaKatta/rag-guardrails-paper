@@ -5,6 +5,8 @@ Public artifact bundle for the preprint:
 > **Small-Rule Guardrails for Retrieval-Augmented Generation: Prompt Injection and Vector Poisoning Checks**
 > Mukunda Rao Katta. ORCID: [0009-0007-6071-3896](https://orcid.org/0009-0007-6071-3896). License: CC BY 4.0.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20057632.svg)](https://doi.org/10.5281/zenodo.20057632)
+
 A compact engineering note on small-rule guardrails sitting between retrieval and prompt construction in RAG pipelines, implemented as two zero-dependency npm packages.
 
 ## Reference implementations
@@ -32,10 +34,10 @@ Retrieval-augmented generation systems often treat retrieved text as helpful evi
 
 ## Citation
 
-Once deposited, cite via the Zenodo or Figshare DOI. Until then, cite this GitHub bundle:
+Cite via the Zenodo DOI:
 
 ```
-Katta, M. R. (2026). Small-Rule Guardrails for Retrieval-Augmented Generation: Prompt Injection and Vector Poisoning Checks. GitHub. https://github.com/MukundaKatta/rag-guardrails-paper
+Katta, M. R. (2026). Small-Rule Guardrails for Retrieval-Augmented Generation: Prompt Injection and Vector Poisoning Checks (Version v1). Zenodo. https://doi.org/10.5281/zenodo.20057632
 ```
 
 ## License
