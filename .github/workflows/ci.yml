@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Render preprint PDF
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install reportlab
+
+      - name: Compile sources
+        run: python -m compileall render_preprint_pdf.py
+
+      - name: Render preprint PDF
+        run: python render_preprint_pdf.py
+
+      - name: Upload rendered PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: rag-guardrails-preprint
+          path: rag-guardrails-small-rule-preprint.pdf
+          if-no-files-found: error
